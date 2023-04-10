@@ -1,0 +1,41 @@
+#Baby {
+   animation: animation_name 9s infinite;
+   background-color:grey;
+   
+   
+  }
+  @-webkit-keyframes animation_name {
+   from {
+    padding: 0%;
+    ;
+   }
+   to {
+    padding: 40%;
+   }
+  }
+  
+  @keyframes animation_name {
+   from {
+    padding: 0%;
+   }
+   to {
+    padding: 60%;
+   }
+  }
+  .dear{
+    color:blue;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size:28px;
+  }
+  .img{
+    width:170px;
+    height:280px;
+    position:absolute;
+    z-index: -2;
+  }
+  .dear{
+    padding-top: 60px;
+    position:absolute;
+  }
